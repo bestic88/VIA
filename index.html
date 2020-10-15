@@ -1,0 +1,153 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/script.js"></script>
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<div class="content">
+
+  <div id="clock">
+  </div>
+
+
+  <div>
+    <button onclick="showButtonLec()">Highlight lectures</button>
+    <button onclick="showButtonPrac()">Highlight practices</button>
+    <button onclick="showButtonAll()">Highlight all</button>
+  </div>
+
+
+<div class="table_content">
+  <table id="time_table">
+    <div id="actual_time">
+  </div>
+    <tr>
+      <th class="time" id="cell_width"></th>
+      <th class="time">07:15-08:00</th>
+      <th class="time">08:00-08:45</th>
+      <th class="time">09:00-09:45</th>
+      <th class="time">09:45-10:30</th>
+      <th class="time">10:45-11:30</th>
+      <th class="time">11:30-12:15</th>
+      <th class="time">12:30-13:15</th>
+      <th class="time">13:15-14:00</th>
+      <th class="time">14:15-15:00</th>
+      <th class="time">15:00-15:45</th>
+      <th class="time">16:00-16:45</th>
+      <th class="time">16:45-17:30</th>
+      <th class="time">17:45-18:30</th>
+      <th class="time">18:30-19:15</th>
+    </tr>
+    <tr class="days">
+      <td class="time">Pondělí</td>
+      <td></td>
+      <td></td>
+      <td colspan="2" class="talk">VIA <p>M. Radecký</p></td>
+      <td colspan="2" class="exercise">VIA <p>M. Radecký</p></td>
+      <td colspan="2" class="talk">POS <p>P. Moravec</p></td>
+      <td colspan="2" class="exercise">VIS <p>D. Ježek</p></td>
+      <td colspan="2" class="exercise">SWS Lichý <p>L. Vojáček</p></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+    <tr class="days">
+      <td class="time">Úterý</td>
+      <td></td>
+      <td></td>
+      <td colspan="2" class="exercise">.NET <p>J. Janoušek</p></td>
+      <td colspan="2" class="exercise">ESPORT <p>J. Čubík </p></td>
+      <td></td>
+      <td></td>
+      <td colspan="2" class="talk">VIS <p>M. Kudělka</p></td>
+      <td colspan="2" class="talk">SWS <p>L. Návrat</p></td>
+      <td></td>
+      <td></td>
+
+    </tr>
+
+    <tr class="days">
+      <td class="time">Středa</td>
+      <td colspan="3" class="exercise">POS <p>M. Krumnikl</p></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td colspan="2" class="talk">. NET<p>J. Janoušek</p></td>
+      <td colspan="2" class="talk">ESPORT <p>J. Čubík</p></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+
+    </tr>
+
+    <tr class="days">
+      <td class="time">Čtvrtek</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+
+    </tr>
+
+    <tr class="days">
+      <td class="time">Pátek</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+
+    </tr>
+  </table>
+  </div>
+
+
+</div>
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>
